@@ -34,21 +34,21 @@ var config = {
         extensions: ['.js', '.jsx', '.json']
     },
     plugins: [
-        new webpack.optimize.CommonsChunkPlugin({
-            name: 'vendor', 
-            filename: 'vendor-[hash:10].js'
-        }),
+        // new webpack.optimize.CommonsChunkPlugin({
+        //     name: 'vendor',
+        //     filename: 'vendor-[hash:10].js'
+        // }),
         new webpack.optimize.OccurrenceOrderPlugin(),
         new ProgressBarPlugin(),
         new webpack.NoEmitOnErrorsPlugin(),
         new ManifestPlugin({
             fileName: 'rev-manifest.json'
         }),
-        new webpack.optimize.UglifyJsPlugin({
-            compress: {
-                warnings: false
-            }
-        }),
+        // new webpack.optimize.UglifyJsPlugin({
+        //     compress: {
+        //         warnings: false
+        //     }
+        // }),
         new webpack.DefinePlugin({
             'process.env': {
                 'NODE_ENV': '"production"'

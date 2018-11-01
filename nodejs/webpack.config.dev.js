@@ -50,10 +50,10 @@ var config = {
         extensions: ['.js', '.jsx', '.json']
     },
     plugins: [
-        new webpack.optimize.CommonsChunkPlugin({
-            name: 'vendor', 
-            filename:  './javascripts/vendor.js'
-        }),
+        // new webpack.optimize.CommonsChunkPlugin({
+        //     name: 'vendor',
+        //     filename:  './javascripts/vendor.js'
+        // }),
         new BellOnBundlerErrorPlugin(),
         new webpack.optimize.OccurrenceOrderPlugin(),
         new webpack.HotModuleReplacementPlugin(),

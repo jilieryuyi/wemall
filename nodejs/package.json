@@ -14,7 +14,10 @@
     "debug": "2.6.3",
     "express": "4.15.2",
     "hbs": "4.0.1",
+    "jquery": "^3.3.1",
     "morgan": "1.8.1",
+    "rc-checkbox": "^2.1.5",
+    "realm": "^0.14.3",
     "request": "2.75.0",
     "serve-favicon": "2.4.2"
   },
@@ -47,7 +50,9 @@
     "style-loader": "0.16.1",
     "ua-parser-js": "0.7.12",
     "webpack": "2.3.2",
+    "webpack-cli": "^3.1.2",
     "webpack-dev-middleware": "1.10.1",
+    "webpack-dev-server": "^2.9.7",
     "webpack-hot-middleware": "2.17.1",
     "webpack-manifest-plugin": "1.1.0"
   }
