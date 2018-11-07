@@ -1,0 +1,22 @@
+{
+  "name": "antd",
+  "version": "1.0.0",
+  "description": "> 近期主要精力在开发[golang123](https://github.com/shen100/golang123)， wemall先暂停3周",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jilieryuyi/wemall.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jilieryuyi/wemall/issues"
+  },
+  "homepage": "https://github.com/jilieryuyi/wemall#readme"
+}
