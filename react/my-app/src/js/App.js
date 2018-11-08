@@ -6,21 +6,15 @@ import Item from "./Item"
 
 class App extends Component {
   constructor(props) {
-    super(props)
+    super(props);
       this.state = {
-          value1 :'',
-      }
+          value1: '',
+      };
       this.handleChange = this.handleChange.bind(this)
   }
-
   handleChange(event) {
-    //if (event.target.name == "value1") {
       this.setState({value1: event.target.value})
-    //} else {
-    //    this.setState({value2: event.target.value})
-    //}
   }
-
   render() {
 
       const data = [
@@ -37,14 +31,14 @@ class App extends Component {
               return <Item item={item} search={this.state.value1} />
           }
           return null
-      })
+      });
 
       let Electronics = data.map(item => {
           if (item.category === "Electronics") {
               return <Item item={item} search={this.state.value1} />
           }
           return null
-      })
+      });
 
     return (
       <div className="App">
