@@ -32,6 +32,20 @@ class App extends Component {
           {category: "Electronics", price: "$199.99", stocked: true, name: "Nexus 7"}
       ];
 
+      let SportingGoods = data.map(item => {
+          if (item.category === "Sporting Goods") {
+              return <Item item={item} search={this.state.value1} />
+          }
+          return null
+      })
+
+      let Electronics = data.map(item => {
+          if (item.category === "Electronics") {
+              return <Item item={item} search={this.state.value1} />
+          }
+          return null
+      })
+
     return (
       <div className="App">
         <Clock />
@@ -40,28 +54,10 @@ class App extends Component {
 
           <div><span>name</span>####<span>price</span></div>
           <h3>Sporting Goods</h3>
-          <ul>
-          {
-              data.map(item => {
-                  if (item.category === "Sporting Goods") {
-                      return <Item item={item} search={this.state.value1} />
-                  }
-                  return null
-              })
-          }
+          <ul>{SportingGoods}
           </ul>
-
           <h3>Electronics</h3>
-          <ul>
-              {
-                  data.map(item => {
-                      if (item.category === "Electronics") {
-                          return <Item item={item} search={this.state.value1} />
-                      }
-                      return null
-                  })
-              }
-          </ul>
+          <ul>{Electronics}</ul>
 
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
