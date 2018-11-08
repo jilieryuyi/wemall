@@ -50,8 +50,7 @@ class App extends Component {
       <div className="App">
         <Clock />
           <div>hello {this.state.value1}</div>
-            <input name="value1" value={this.state.value1} onChange={this.handleChange}/>
-
+          <input name="value1" value={this.state.value1} onChange={this.handleChange}/>
           <div><span>name</span>####<span>price</span></div>
           <h3>Sporting Goods</h3>
           <ul>{SportingGoods}
