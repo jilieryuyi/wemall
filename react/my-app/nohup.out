@@ -1,0 +1,9 @@
+WARN: Vue.js not loaded: since build 181.4892 > GO-181.4668.90
+Fontconfig warning: "/etc/fonts/fonts.conf", line 146: blank doesn't take any effect anymore. please remove it from your fonts.conf
+[12312:12344:1108/144936.921710:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+[12595:12623:1108/144948.485181:ERROR:adm_helpers.cc(73)] Failed to query stereo recording.
+[12312:12344:1108/145011.831508:ERROR:connection.cc(1888)] Cookie sqlite error 2067, errno 0: UNIQUE constraint failed: cookies.host_key, cookies.name, cookies.path, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, is_secure, is_httponly, firstpartyonly, last_access_utc, has_expires, is_persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[12595:12623:1108/145028.835000:ERROR:stunport.cc(88)] Binding request timed out from 0.0.0.x:33075 (any)
+[13068:13094:1108/145431.333481:ERROR:adm_helpers.cc(73)] Failed to query stereo recording.
+[13068:13094:1108/145511.108275:ERROR:stunport.cc(88)] Binding request timed out from 0.0.0.x:48611 (any)
